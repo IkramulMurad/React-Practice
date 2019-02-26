@@ -1,0 +1,34 @@
+{
+  "name": "React app",
+  "version": "1.0.0",
+  "description": "React practice app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port 1234"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IkramulMurad/React-Practice.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Md. Ikramul Murad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IkramulMurad/React-Practice/issues"
+  },
+  "homepage": "https://github.com/IkramulMurad/React-Practice#readme",
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
